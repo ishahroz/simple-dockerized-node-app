@@ -31,6 +31,11 @@ docker run -it ishahroz/simple-dockerized-node-app sh
 ```
 docker ps
 ```
+### Docker Restart Policies
+
+<br />
+
+![Docker Restart Policies](/images/docker_restart_policies.png)
 # docker-compose
 
 Docker-compose makes it very easy for networking between containers since Docker maintains its internal hostname scheme between containers. It assumes **docker-compose.yml** file exists in the project directory.
@@ -49,4 +54,9 @@ docker-compose up -d
 ## To stop containers using docker-compose
 ```
 docker-compose down
+```
+## To display all the containter (processes) running using docker-compose
+It assumes your terminal is opened in the same directory as of docker-compose.yml file.
+```
+docker-compose ps
 ```
