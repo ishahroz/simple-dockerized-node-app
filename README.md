@@ -1,3 +1,7 @@
+This project covers following concepts:
+
+1. Basics of Docker
+2. docker-compose
 # Docker
 ## To check if docker is installed
 ```
